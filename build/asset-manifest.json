@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4370d07d.css",
+    "main.js": "/static/js/main.4e928117.js",
+    "static/js/787.b822b63e.chunk.js": "/static/js/787.b822b63e.chunk.js",
+    "static/media/structure2.JPG": "/static/media/structure2.cb9190d5bfecae0990f7.JPG",
+    "static/media/hyd.JPG": "/static/media/hyd.1f19020d5b983fca8d22.JPG",
+    "static/media/ban1.JPG": "/static/media/ban1.f262a01b8de38283db99.JPG",
+    "static/media/contactus.jpg": "/static/media/contactus.ee72b640d9807a9a71a2.jpg",
+    "static/media/clientbg.jpg": "/static/media/clientbg.eb8616bfc4ad6dd85160.jpg",
+    "static/media/banner4.jpg": "/static/media/banner4.8ae04e85d3459298fdd5.jpg",
+    "static/media/person.png": "/static/media/person.055d088ac66fbddf67ff.png",
+    "static/media/pipe3.jpeg": "/static/media/pipe3.9837f8381feba67e048a.jpeg",
+    "static/media/equip.jpeg": "/static/media/equip.a613018e9ce6ff4463f3.jpeg",
+    "static/media/pipe1.jpeg": "/static/media/pipe1.fdcce445cd340b7fba1d.jpeg",
+    "static/media/pipe2.jpeg": "/static/media/pipe2.a106ceccd45677a94364.jpeg",
+    "static/media/aboutbg.jpeg": "/static/media/aboutbg.75202251d5e341b747b9.jpeg",
+    "static/media/pipeline.jpeg": "/static/media/pipeline.d86654873935a7b90cfd.jpeg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.66b7720f4a230f1b0341.woff",
+    "static/media/banner5.jpg": "/static/media/banner5.5c33462d3a1aff9e334b.jpg",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.64ed46b247405068ca60.woff2",
+    "static/media/man1.jpeg": "/static/media/man1.efd2f7b73b1690ced8a7.jpeg",
+    "static/media/ongoing.jpg": "/static/media/ongoing.f07c97eadd20dceec5a0.jpg",
+    "static/media/NRP.png": "/static/media/NRP.b173b38b20bec8203241.png",
+    "static/media/man2.jpeg": "/static/media/man2.04c8b6fa1687549dbd9a.jpeg",
+    "static/media/pipeline1.jpeg": "/static/media/pipeline1.25b93277dc0ebdb2abf3.jpeg",
+    "static/media/bihar.jpeg": "/static/media/bihar.c376eda017f9660b0808.jpeg",
+    "static/media/AWElogo.svg": "/static/media/AWElogo.5bd84fa728f461321090d435f6ed95c4.svg",
+    "static/media/gkaps.jpeg": "/static/media/gkaps.ea89d53055b9506c5432.jpeg",
+    "static/media/tank.svg": "/static/media/tank.24dd0f164f2799629f9238031881727e.svg",
+    "index.html": "/index.html",
+    "main.4370d07d.css.map": "/static/css/main.4370d07d.css.map",
+    "main.4e928117.js.map": "/static/js/main.4e928117.js.map",
+    "787.b822b63e.chunk.js.map": "/static/js/787.b822b63e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4370d07d.css",
+    "static/js/main.4e928117.js"
+  ]
+}
