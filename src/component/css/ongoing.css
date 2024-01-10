@@ -1,0 +1,114 @@
+.App1 {
+    font-family: "Arial", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  .parallax1 {
+    height: 100vh;
+    background-image: url(../../assets/ongoing.jpg);
+    background-attachment: fixed; 
+    background-size: cover;
+    background-position: center;
+  }
+
+  .h-client6{
+	color: gray;
+	font-weight: 500;
+    word-spacing: 50px;
+	text-transform: uppercase;
+	text-shadow: 5px 5px 5px #7a7566;
+	font-size: 70px;
+	padding: 2%;
+    }
+  .services {
+    background: rgba(
+      255,
+      255,
+      255,
+      0.9
+    ); 
+    padding: 50px 0;
+    transition: background 0.5s; 
+    /* padding-right: 200px; */ 
+  }
+  .service {
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-250px);
+    opacity: 0;
+    transition: transform 0.5s, opacity 0.5s;
+    border: 1px solid lightgray; 
+    border-radius: 8px; 
+    padding: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.07); /* Modern box shadow */
+    /* background:url(../../assets/tank1.jpeg) no-repeat;  */
+    /* background: linear-gradient(to top, #010102, #192d3400), url(../../assets/tank1.jpeg) no-repeat 50% 50%/cover; */
+    /* background-position:center; */
+    /* background-size:contain; */
+    /* color: #ffffff; */
+  }
+  .service p{
+    text-align: justify;
+  }
+  
+  .icon {
+    font-size: 40px;
+    margin-bottom: -20px;
+  }
+  
+  .service.active {
+    width: 45%;
+    margin-left: 40px;
+    opacity: 1;
+    transform: translateY(0);
+    visibility: visible;
+  }
+
+@media (min-width:768px) and (max-width:1000px) {
+  .parallax1 {
+    height: 70vh;
+    background-image: url(../../assets/ongoing.jpg);
+    background-attachment: fixed; 
+    background-size:contain;
+    background-position: center;
+  }
+  .service {
+    margin-bottom: 70px;
+    margin-right: -10px;
+  }
+  .service p{
+    text-align: justify;
+  }
+}
+@media (min-width:421px) and (max-width:767px) {
+  .services{
+    width:140%;
+  }
+}
+
+@media (max-width: 420px) {
+  .parallax1 {
+    height: 60vh;
+    background-image: url(../../assets/ongoing.jpg);
+    background-attachment: fixed; 
+    background-size:contain;
+    background-position: center;
+  }
+  .h-client6{
+    font-weight: 300;
+    word-spacing: 20px;
+    font-size: 30px;
+    padding-top: 10%;
+    }
+    .services{
+      width:200%;
+    }
+  .service {
+    padding: 20px;
+  }
+  .service p{
+    text-align: justify;
+  }
+}

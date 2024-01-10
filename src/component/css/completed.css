@@ -1,0 +1,7 @@
+.parallax {
+    height: 100vh;
+    background-image: url(../../assets/ban1.JPG);
+    background-attachment: fixed; 
+    background-size:cover;
+    background-position:top;
+  }

@@ -1,0 +1,108 @@
+div.card1 {
+    margin: 20px;
+    background: transparent;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s;
+    position: relative;
+    cursor: pointer;
+}
+.card-outer1 {
+  background: transparent;
+  position: relative;
+  height: 200px;
+  top:150px;
+  bottom: 200px;
+}
+
+.card-contact1{
+  background: url(../../assets/contactus.jpg) no-repeat   ;
+  background-size:contain;
+  border: 1px solid wheat;
+  border-radius: 50px;
+  box-shadow: 8px 8px 8px grey;
+  height: 250px;
+  margin-bottom:590px;
+}
+.h-client1{
+    color: #F8BD26;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #7a7566;
+    font-size: 70px;   
+}
+.card-inner1 {
+    margin: 30px -20px;
+    width: inherit;
+    height: 230px;
+    background: linear-gradient(to bottom , white, #F8D57C);
+    /* background: rgba(255,255,255,.05); */
+    box-shadow: 8px 8px 10px rgba(0,0,0,0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+    text-align:center;
+    padding: 20px;
+  }
+.card-inner1 h6{
+  font-family: "Roboto", sans-serif;
+    background: transparent;
+    margin: 10px;
+    color: #F8BD26;
+}
+
+.card-inner1 i{
+  font-family: "Roboto", sans-serif;
+  background: transparent;
+  margin-top: -10px;
+  padding: 10px;
+  font-size: 1.1rem;
+  /* font-size: 20px; */
+}
+  
+.card1:hover {
+    transform: scale(1.04) rotate(1deg);
+}
+
+@media (min-width:769px) and (max-width:1200px) {
+  .h-client1{
+    color: #F8BD26;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-shadow: 5px 5px 5px #7a7566;
+    font-size: 50px;   
+}
+}
+
+@media (max-width: 768px) {
+  .card-contact{
+    background: url(../../assets/contactus.jpg) no-repeat   ;
+    background-size:contain;
+    background-position: center;
+    border: 1px solid wheat;
+    border-radius: 50px;
+    box-shadow: 8px 8px 8px grey;
+    height: 250px;
+    margin-bottom:-60px;
+  }
+  .h-client1{
+    color: black;
+    font-weight: 300;
+    /* margin-left: 230px; */
+    margin-top: 140px;
+    margin-left: 0px;
+    font-size: 23px;   
+}
+.card-contact1{
+  margin-top: -50px;
+  background: none ;
+  background-size:none;
+  border: none;
+  border-radius: none;
+  box-shadow: none;
+  height: 350px;
+  margin-bottom:800px;
+}
+i.email1{
+  font-size: 92%;
+}
+}

@@ -1,0 +1,37 @@
+.nav1{
+    /* background-color:#F8BC24 ; */
+    height: 120px;
+}
+.nav-item{
+    font-size: 18px;
+    font-weight: 500;
+}
+.logo1{
+    height: 230px;
+    width: 300px;
+}
+@media (min-width:769px) and (max-width:1200px) {
+    .nav-list{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nav1{
+        /* height: 150px; */
+        bottom: 10px;
+    }
+    .logo1{
+        height: 50%;
+        width: 60%;
+        position: relative;
+        margin-top: -10%;
+        left: 35px;
+    }
+    .nav-list{
+        margin-top: -40px;
+        padding-bottom: 20px;
+        font-size: 12px;
+    }
+    
+}

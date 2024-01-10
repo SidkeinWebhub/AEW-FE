@@ -1,0 +1,12 @@
+nav.nav2{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: linear-gradient(to right ,#f8d57c  ,#F8BC24 );
+    z-index: 99;
+}
+.dropdown-menu{
+    background: linear-gradient(to right ,#f8d57c  ,#F8BC24 );
+}
+
+

@@ -1,0 +1,460 @@
+img.person-img{
+   filter: drop-shadow(20px 20px 20px  black); 
+   position: sticky;
+   top: 40px;
+   /* bottom: -100px; */
+   margin-left: 140%;
+   /* margin-top: -100%; */
+}
+.abouth{
+    text-shadow: 0px 0px 10px #F9C033,
+    0px 0px 20px #F9C033,
+    0px 0px 80px #F9C033;
+    color: #000000;
+    font-size: 50px;
+}
+.aboutbg{
+    background: url(../.././assets/aboutbg.jpeg) ;
+    /* background: linear-gradient(to top, #010102, #192d3400), url(../../assets/aboutbg.jpeg) 50% 50%/cover; */
+    width: 50%;
+    /* margin-top: -200px; */
+}
+.aboutban{
+    position: relative;
+    color: #F9C033;
+    font-size: 50px;
+    font-weight: 800;
+    /* top: 400%; */
+    left: 110%;
+    top: 20%;
+    margin-bottom: -30px;
+}
+.aboutbanp{
+    position: relative;
+    /* color: white; */
+    width: 60%;
+    text-align: justify;
+    left: 130%;
+    top: 30%;
+    font-size: 18px;
+}
+.aboutbanp li span{
+    /* list-style:url(../../assets/oil-tank.png); */
+    font-size: 30px;
+}
+.aboutbanp li::marker {
+    content:"⚙️";
+    font-size: 2.0em;
+   /* line-height:0.1; */
+    /* animation: rotate 1.5s linear infinite;  */
+    -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
+  animation: rotating 2s linear infinite;
+  }
+  /* @keyframes rotate{
+    to{ transform: rotate(360deg); }
+  } */
+  @-webkit-keyframes rotating /* Safari and Chrome */ {
+    from {
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  @keyframes rotating {
+    from {
+      -ms-transform: rotate(0deg);
+      -moz-transform: rotate(0deg);
+      -webkit-transform: rotate(0deg);
+      -o-transform: rotate(0deg);
+      transform: rotate(0deg);
+    }
+    to {
+      -ms-transform: rotate(360deg);
+      -moz-transform: rotate(360deg);
+      -webkit-transform: rotate(360deg);
+      -o-transform: rotate(360deg);
+      transform: rotate(360deg);
+    }
+  }
+  
+.aboutban1{
+    /* position: relative; */
+    color: #F9C033;
+    margin-bottom: 15%;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: -2250px;
+    margin-bottom: 30px;
+}
+.aboutban2{
+    margin-top: -1150px;
+    margin-bottom: 30px;
+}
+.approach{
+  position: relative;
+  top: 80px;
+  margin-bottom: 40px;
+}
+.approach h1{
+  color: #F9C033;
+  font-size: 50px;
+  font-weight: 800;
+}
+.tilesWrap {
+    padding: 0;
+    margin: 100px auto;
+    list-style: none;
+    text-align: center;
+  }
+  .tilesWrap li {
+     display: inline-block;
+    /* width:100%; */
+    /* min-width: 100%; */
+    /* max-width:100%; */
+    padding: 80px 20px 40px;
+    position: relative;
+    vertical-align: top;
+    margin: 30px;
+    font-family: 'helvetica', san-serif;
+    min-height: 25vh;
+    /* background:#edebe2; */
+    opacity: 0.8;
+    border: 1px solid #252727;
+    text-align: left;
+  }
+  .tilesWrap li h2 {
+    font-size: 114px;
+    margin: 0;
+    position: absolute;
+    opacity: 0.2;
+    top: 50px;
+    right: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  .tilesWrap li h3 {
+    font-size: 20px;
+    /* color: #b7sb7b7; */
+    margin-bottom: 5px;
+  }
+  .tilesWrap li p {
+    font-size: 16px;
+    line-height: 18px;
+    /* color: #b7b7b7; */
+    margin-top: 5px;
+  }
+  .tilesWrap li button {
+    background: transparent;
+    border: 1px solid #b7b7b7;
+    padding: 10px 20px;
+    /* color: #b7b7b7; */
+    border-radius: 3px;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-40px);
+    opacity: 0;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .tilesWrap li button:before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 120%;
+    background: #b7b7b7;
+    top: 0;
+    opacity: 0;
+    left: -140px;
+    border-radius: 0 20px 20px 0;
+    z-index: -1;
+    transition: all 0.3s ease-in-out;
+    
+  }
+  .tilesWrap li:hover button {
+    transform: translateY(5px);
+    opacity: 1;
+  }
+  .tilesWrap li button:hover {
+    color: #262a2b;
+  }
+  .tilesWrap li button:hover:before {
+    left: 0;
+    opacity: 1;
+  }
+  .tilesWrap li:hover h2 {
+    top: 0px;
+    opacity: 0.6;
+  }
+  
+  .tilesWrap li:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    right: -20px;
+    bottom: -20px;
+    z-index: -1;
+    background: #fff;
+    transform: skew(2deg, 2deg);
+  }
+  .tilesWrap li:after {
+    
+    content: '';
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(255, 255, 255, 0.02);
+  }
+  .tilesWrap li:nth-child(1):before {
+    
+    background: #C9FFBF;
+  background: -webkit-linear-gradient(to right, #E1B304, #C9FFBF);
+  background: linear-gradient(to right, #E1B304, #C9FFBF);
+  }
+  .tilesWrap li:nth-child(2):before {
+    background: #E1B304;
+  background: -webkit-linear-gradient(to right, #ff9472, #E1B304);
+  background: linear-gradient(to right, #ff9472, #E1B304);
+  }
+
+  
+@media (min-width:769px) and (max-width:1350px) {
+  img.person-img{
+    filter: drop-shadow(20px 20px 20px  black); 
+    position: sticky;
+    top: 400px;
+    /* bottom: -100px; */
+    margin-left: 40%;
+    /* margin-top: -100%; */
+ }
+ .abouth{
+     text-shadow: 0px 0px 10px #F9C033,
+     0px 0px 20px #F9C033,
+     0px 0px 80px #F9C033;
+     color: #000000;
+     font-size: 50px;
+ }
+ .aboutbg{
+     width: 50%;
+     margin-left: -150px;
+ }
+ .aboutban{
+  position: relative;
+  color: #F9C033;
+  font-size: 50px;
+  font-weight: 800;
+  /* top: 400%; */
+  left: 120%;
+  top: 10%;
+  margin-bottom: -40px;
+}
+.aboutbanp{
+  position: relative;
+  /* color: white; */
+  width: 100%;
+  text-align: justify;
+  left: 125%;
+  top: 30%;
+  font-size: 18px;
+}
+.aboutban1{
+    /* position: relative; */
+    color: #F9C033;
+    margin-bottom: 15%;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: -2300px;
+    margin-bottom: 30px;
+}
+.aboutban2{
+    margin-top: -1150px;
+    margin-bottom: 30px;
+}
+
+}
+
+@media (min-width: 500px)and (max-width:768px) {
+  img.person-img{
+    filter: drop-shadow(20px 20px 20px  black); 
+    position: sticky;
+    top: 500px;
+    /* bottom: -100px; */
+    margin-left: 30%;
+    height: 16%;
+    /* margin-top: -100%; */
+ }
+ .abouth{
+     text-shadow: 0px 0px 10px #F9C033,
+     0px 0px 20px #F9C033,
+     0px 0px 80px #F9C033;
+     color: #000000;
+     font-size: 50px;
+ }
+ .aboutbg{
+     width: 45%;
+     margin-left: -150px;
+ }
+ .aboutban{
+  position: relative;
+  color: #F9C033;
+  font-size: 40px;
+  font-weight: 700;
+  /* top: 400%; */
+  left: 150%;
+  top: 5%;
+  margin-bottom: 0px;
+}
+.aboutbanp{
+  position: relative;
+  /* color: white; */
+  width: 120%;
+  text-align: justify;
+  left: 145%;
+  top:10%;
+  font-size: 18px;
+}
+.aboutban1{
+    /* position: relative; */
+    color: #F9C033;
+    margin-bottom: 15%;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: -2400px;
+    margin-bottom: 30px;
+}
+.aboutban2{
+    margin-top: -820px;
+    margin-bottom: 20px;
+}
+}
+
+@media (min-width: 400px) and (max-width: 499px) {
+  img.person-img{
+    filter: drop-shadow(20px 20px 20px  black); 
+    position: sticky;
+    top: 500px;
+    /* bottom: -100px; */
+    margin-left: 65%;
+    height: 9%;
+    /* margin-top: -100%; */
+ }
+ .abouth{
+     text-shadow: 0px 0px 10px #F9C033,
+     0px 0px 20px #F9C033,
+     0px 0px 80px #F9C033;
+     color: #000000;
+     font-size: 50px;
+ }
+ .aboutbg{
+     width: 45%;
+     margin-left: -150px;
+ }
+ .aboutban{
+  position: relative;
+  color: #F9C033;
+  font-size: 40px;
+  font-weight: 700;
+  /* top: 400%; */
+  left: 150%;
+  top: 5%;
+  margin-bottom: 0px;
+}
+.aboutbanp{
+  position: relative;
+  /* color: white; */
+  width: 140%;
+  text-align: justify;
+  left: 145%;
+  top:10%;
+  font-size: 18px;
+}
+.aboutban1{
+    /* position: relative; */
+    color: #F9C033;
+    margin-bottom: 15%;
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: -2400px;
+    margin-bottom: 30px;
+}
+.aboutban2{
+    margin-top: -760px;
+    margin-bottom: 0px;
+}
+}
+
+@media (max-width: 399px) {
+  img.person-img{
+    filter: drop-shadow(20px 20px 20px  black); 
+    position: sticky;
+    top: 500px;
+    /* bottom: -100px; */
+    margin-left: 60%;
+    height: 6%;
+    /* margin-top: -100%; */
+ }
+ .abouth{
+     text-shadow: 0px 0px 10px #F9C033,
+     0px 0px 20px #F9C033,
+     0px 0px 80px #F9C033;
+     color: #000000;
+     font-size: 50px;
+ }
+ .aboutbg{
+     width: 45%;
+     margin-left: -110px;
+ }
+ .aboutban{
+  position: relative;
+  color: #F9C033;
+  font-size: 30px;
+  font-weight: 700;
+  /* top: 400%; */
+  left: 150%;
+  top: 2%;
+  margin-bottom: -50px;
+}
+.aboutbanp{
+  position: relative;
+  /* color: white; */
+  width: 140%;
+  text-align: justify;
+  left: 145%;
+  top:10%;
+  font-size: 15px;
+}
+.aboutban1{
+    /* position: relative; */
+    color: #F9C033;
+    margin-bottom: 15%;
+    font-size: 30px;
+    font-weight: 800;
+    margin-top: -2400px;
+    margin-bottom: 30px;
+}
+.aboutban2{
+    margin-top: -720px;
+    margin-bottom: 0px;
+    font-size: 30px;
+}
+.aboutbanp li span{
+  /* list-style:url(../../assets/oil-tank.png); */
+  font-size: 25px;
+}
+.approach{
+  position: relative;
+  top: 130px;
+  margin-bottom: 40px;
+}
+}
+  
+  
