@@ -1,14 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './css/navbar.css'
-import logo from '../../src/assets/AWElogo.png'
+import logo from '../../src/assets/AWElogo.svg'
 
 function Navbar() {
   return (
     <nav className='nav1 navbar navbar-expand-md navbar-light '>
         <div className="container">
             <NavLink to={`/`} className="navbar-brand">
-                <span className="logo"><img src={logo} alt="logo" className='bg-transparent logo1'  />
+                <span className="logo"><img src={logo} alt="logo" className=' logo1'  />
                 </span>
             </NavLink>
 

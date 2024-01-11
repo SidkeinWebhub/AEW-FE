@@ -100,6 +100,7 @@
     color: #ffffff;
 }
 
+
 @media (min-width:769px) and (max-width:1200px) {
   
     /* .wave img{
@@ -319,6 +320,9 @@
     .link-spangeo{
        font-size: small;
        margin-left: -130px;
+    }
+    .footer-img{
+        background-color: gray;
     }
 }
 
