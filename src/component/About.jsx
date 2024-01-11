@@ -1,5 +1,5 @@
 import React from 'react'
-import tank from '../../src/assets/tank.svg'
+import tank from '../../src/assets/tank.png'
 import './css/about.css'
 
 function About() {
