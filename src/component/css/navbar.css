@@ -9,7 +9,8 @@
 .logo1{
     height: 230px;
     width: 300px;
-    background: transparent;
+    background-color: rgba(0, 0, 0, 0);
+   
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
@@ -34,10 +35,6 @@
         padding-bottom: 20px;
         font-size: 12px;
     }
-    .logo1{
-        height: 200px;
-        width: 300px;
-        background: grey;
-    }
+    
     
 }
