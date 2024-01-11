@@ -12,7 +12,6 @@ function About() {
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="loader1">
                     <p className="text">
-                        {/* Sidkein WebHub... */}
                         <img className='tank-img' src={tank} alt="about" height={'450px'}  width={'90%'}/>
                     </p>
                 </div>

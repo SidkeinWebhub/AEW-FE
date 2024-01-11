@@ -455,6 +455,11 @@ img.person-img{
   top: 130px;
   margin-bottom: 40px;
 }
+.aboutbanp li::marker {
+  content:"⚙️";
+  font-size: 2.0em;
+  animation: rotating 2s linear infinite;
+}
 }
   
   

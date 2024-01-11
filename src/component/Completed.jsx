@@ -37,9 +37,7 @@ function Completed() {
   return (
     <div className="App1">
       <div className="parallax">
-        <div className="content">
-          {/* <h1>Ongoing Projects</h1> */}
-        </div>
+        
       </div>
 
       <center>
