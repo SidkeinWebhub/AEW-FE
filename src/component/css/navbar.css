@@ -9,6 +9,7 @@
 .logo1{
     height: 230px;
     width: 300px;
+    background: transparent;
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
@@ -32,6 +33,11 @@
         margin-top: -40px;
         padding-bottom: 20px;
         font-size: 12px;
+    }
+    .logo1{
+        height: 230px;
+        width: 300px;
+        background: transparent;
     }
     
 }
