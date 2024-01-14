@@ -9,7 +9,7 @@
 .logo1{
     height: 230px;
     width: 300px;
-    background-color: white; 
+    background:-webkit-linear-gradient(transparent);
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
