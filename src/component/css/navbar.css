@@ -7,12 +7,12 @@
     font-weight: 500;
 }
 .navbar-brand{
-    background: white;
+    background: none;
 }
 #logo1{
     height: 230px;
     width: 300px;
-    background:transparent;
+    background:none;
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
