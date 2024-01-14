@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/footer.css'
 import { NavLink } from 'react-router-dom'
-import logo from '../../src/assets/AWElogo.png'
+import logo from '../../src/assets/AWElogo.svg'
 
 function Footer() {
   return (

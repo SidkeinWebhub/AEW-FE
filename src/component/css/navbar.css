@@ -1,5 +1,5 @@
 .nav1{
-    /* background-color:#F8BC24 ; */
+    background-color:white;
     height: 120px;
 }
 .nav-item{
@@ -9,8 +9,7 @@
 .logo1{
     height: 230px;
     width: 300px;
-    background-color: rgba(0, 0, 0, 0);
-   
+    background-color: white; 
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
