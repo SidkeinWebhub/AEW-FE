@@ -1,8 +1,8 @@
-<?xml version="1.0" standalone="no"?>
-<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
- "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
 
-<svg data-v-0dd9719b="" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB" style="margin: auto;" fill="url(#watermark)"> 
+<!-- <svg data-v-0dd9719b="" version="1.0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" viewBox="0 0 340.000000 250.000000" preserveAspectRatio="xMidYMid meet" color-interpolation-filters="sRGB" style="margin: auto;enable-background:new 0 0 1080 1080;" fill="url(#watermark)">  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="100%" x="0px" y="0px"
+	 viewBox="0 0 340.000000 250.000000" style="enable-background:new 0 0 1080 1080;" xml:space="preserve" fill="transparent">
 <rect data-v-0dd9719b="" x="0" y="0" width="100%" height="100%" fill="url(#watermark)"  fill-opacity="1" class="background"></rect> <rect data-v-0dd9719b="" x="0" y="0" width="100%" height="100%" fill="url(#watermark)" fill-opacity="1" class="watermarklayer"></rect> 
 <g data-v-0dd9719b="" fill="#333" class="icon-text-wrapper icon-svg-group iconsvg" transform="translate(19.964996337890625,56)"><g fill="#333" class="iconsvg-imagesvg icon_container" transform="translate(0,0)"><rect fill="#333" fill-opacity="0" stroke-width="2" x="0" y="0" width="138.00000000000006" height="138.00000000000006" class="image-rect"></rect> 
 <svg viewBox="0 0 60 55.51186566128509" x="0" y="0" width="138.00000000000006" height="138.00000000000006" class="image-svg-svg bn" style="overflow: visible;"><g hollow-target=""><g><svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.004 0 209.27399 193.62" style="overflow: visible;" width="60" height="55.51186566128509" x="0" y="0" filtersec="colorsf4156676778"><g transform="scale(1, 1) skewX(0)"><path fill="#FDB800" opacity=".9" d="M94.629 2.183l94.632 94.633-94.632 94.632L-.004 96.816z"></path><path d="M112.46 193.62L15.64 96.81 112.46 0l96.81 96.81zM20 96.81l92.46 92.46 92.45-92.46-92.45-92.46z" fill="#000000"></path></g></svg></g> 
