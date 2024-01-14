@@ -1,7 +1,7 @@
 import React from 'react'
 import './css/footer.css'
 import { NavLink } from 'react-router-dom'
-import logo from '../../src/assets/AWElogo.svg'
+import logo from '../../src/assets/AWElogo.png'
 
 function Footer() {
   return (
@@ -10,7 +10,8 @@ function Footer() {
           <div className="row">
             <div className="col-md-4 col-lg-4 col-sm-12 footer-div footer-div1">
               {/* <h1 className='logo2'>hi</h1> */}
-              <img src={logo} alt="Logo" className='footer-img ' width={300} height={150} />
+              {/* <img src={logo} alt="Logo" className='footer-img ' width={300} height={150} /> */}
+              <img src={logo} alt="Logo" className='footer-img ' width={250} height={150} />
               <h1>ATTHI ENGINEERING WORKS</h1>
             </div>
             <div className="col-md-4 col-lg-4 col-sm-6 footer-div footer-link">

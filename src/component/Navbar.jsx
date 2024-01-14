@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import './css/navbar.css'
-import logo from '../../src/assets/AWElogo.svg'
+import logo from '../../src/assets/AWElogo.png'
 
 function Navbar() {
   return (
