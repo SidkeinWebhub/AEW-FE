@@ -10,7 +10,7 @@ function Navbar() {
             <NavLink to={`/`} className="navbar-brand">
                 {/* <span className="logo"><img src={logo} alt="logo" className=' logo1'  />
                 </span> */}
-                <object data={logo} className=' logo1'  type="image/svg+xml" aria-label='logo'></object>
+                <object data={logo} className=' logo1' id='logo1' type="image/svg+xml" aria-label='logo'></object>
             </NavLink>
 
             <div className=" navbar-collapse justify-content-end " >

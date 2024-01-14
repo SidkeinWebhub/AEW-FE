@@ -8,11 +8,13 @@
 }
 .navbar-brand{
     background: white;
+    -webkit-clip-path: url(#logo1);
 }
-.logo1{
+#logo1{
     height: 230px;
     width: 300px;
     background:transparent;
+    -webkit-mask-repeat: no-repeat;
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
