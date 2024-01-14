@@ -6,10 +6,13 @@
     font-size: 18px;
     font-weight: 500;
 }
+.navbar-brand{
+    background: white;
+}
 .logo1{
     height: 230px;
     width: 300px;
-    background:-webkit-linear-gradient(transparent);
+    background:transparent;
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
