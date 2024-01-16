@@ -11,12 +11,12 @@
     
 }
 #logo1{
-    /* height: 230px;
-    width: 300px; */
-    margin-left: -50px;
+    height: 230px; 
+    width: 300px; 
+    /* margin-left: -50px;
     height: 250px;
     width: 380px;
-    background:none;
+    background:none; */
 }
 @media (min-width:769px) and (max-width:1200px) {
     .nav-list{
@@ -26,20 +26,22 @@
 
 @media (max-width: 768px) {
     .nav1{
-        /* height: 150px; */
+        height: 150px;
         bottom: 10px;
     }
-    .logo1{
-        height: 50%;
-        width: 60%;
+    #logo1{
+        height: 200px;
+        width: 200px;
         position: relative;
-        margin-top: -10%;
-        left: 35px;
+        margin-top: -25%;
+        margin-bottom: -40px;
+        left: 30px;
     }
     .nav-list{
-        margin-top: -40px;
+        text-align: center;
+        margin-top: -30px;
         padding-bottom: 20px;
-        font-size: 12px;
+        font-size: 11px;
     }
     
     
