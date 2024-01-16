@@ -1,5 +1,5 @@
 import React from 'react'
-import tank from '../../src/assets/tank.png'
+import tank from '../../src/assets/tank.svg'
 import './css/about.css'
 
 function About() {
@@ -7,7 +7,7 @@ function About() {
     <div className="container about">
         <div className="row">
             <center className='aboutH1'>
-                <h1 > About </h1>
+                <h1 > About Us</h1>
             </center>
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <div className="loader1">

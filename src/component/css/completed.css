@@ -5,3 +5,10 @@
     background-size:cover;
     background-position:center;
   }
+
+  @media (max-width: 768px) {
+    .parallax {
+      background:  url(../../assets/ban1.JPG) no-repeat 100% 100%/cover fixed;
+      background-position:center;
+    }
+  }

@@ -42,8 +42,11 @@ img.person-img{
     /* list-style:url(../../assets/oil-tank.png); */
     font-size: 30px;
 }
+.aboutbanp li {
+  list-style-type:"⚙️";
+}
 .aboutbanp li::marker {
-    content:"⚙️";
+    /* content:"⚙️"; */
     font-size: 2.0em;
    /* line-height:0.1; */
     /* animation: rotate 1.5s linear infinite;  */
@@ -455,10 +458,17 @@ img.person-img{
   top: 130px;
   margin-bottom: 40px;
 }
+.aboutbanp li {
+  list-style-type:"⚙️";
+}
 .aboutbanp li::marker {
-  content:"⚙️";
+  /* content:"⚙️"; */
   font-size: 2.0em;
   animation: rotating 2s linear infinite;
+  -webkit-animation: rotating 2s linear infinite;
+  -moz-animation: rotating 2s linear infinite;
+  -ms-animation: rotating 2s linear infinite;
+  -o-animation: rotating 2s linear infinite;
 }
 }
   
