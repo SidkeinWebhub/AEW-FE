@@ -5,10 +5,10 @@
   
   .parallax1 {
     height: 100vh;
-    background-image: url(../../assets/ongoing.jpg);
     background-attachment: fixed; 
-    background-size: cover;
+    background-size: contain;
     background-position: center;
+    background: linear-gradient(to top, #010102, transparent), url(../../assets/ongoing.jpg) no-repeat 100% 100%/cover;
   }
 
   .h-client6{
@@ -86,16 +86,24 @@
   .services{
     width:140%;
   }
+  .parallax1 {
+    height: 50vh;
+    background-image: url(../../assets/ongoing.jpg);
+    background-attachment:none; 
+    background-size:contain;
+    background-position: center;
+  }
 }
 
 @media (max-width: 420px) {
   .parallax1 {
-    height: 60vh;
+    height: 40vh;
     background-image: url(../../assets/ongoing.jpg);
-    background-attachment: fixed; 
+    background-attachment:none; 
     background-size:contain;
     background-position: center;
   }
+  
   .h-client6{
     font-weight: 300;
     word-spacing: 20px;
