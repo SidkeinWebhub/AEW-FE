@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4370d07d.css",
-    "main.js": "/static/js/main.4e928117.js",
-    "static/js/787.b822b63e.chunk.js": "/static/js/787.b822b63e.chunk.js",
+    "main.css": "/static/css/main.cef991be.css",
+    "main.js": "/static/js/main.6df0267e.js",
+    "static/js/27.9ede600f.chunk.js": "/static/js/27.9ede600f.chunk.js",
     "static/media/structure2.JPG": "/static/media/structure2.cb9190d5bfecae0990f7.JPG",
     "static/media/hyd.JPG": "/static/media/hyd.1f19020d5b983fca8d22.JPG",
     "static/media/ban1.JPG": "/static/media/ban1.f262a01b8de38283db99.JPG",
@@ -24,17 +24,18 @@
     "static/media/NRP.png": "/static/media/NRP.b173b38b20bec8203241.png",
     "static/media/man2.jpeg": "/static/media/man2.04c8b6fa1687549dbd9a.jpeg",
     "static/media/pipeline1.jpeg": "/static/media/pipeline1.25b93277dc0ebdb2abf3.jpeg",
+    "static/media/tubes.png": "/static/media/tubes.130d149d87296270d4a9.png",
     "static/media/bihar.jpeg": "/static/media/bihar.c376eda017f9660b0808.jpeg",
-    "static/media/AWElogo.svg": "/static/media/AWElogo.5bd84fa728f461321090d435f6ed95c4.svg",
+    "static/media/piping.png": "/static/media/piping.681e88b2aeead5a273ea.png",
+    "static/media/AWElogo.svg": "/static/media/AWElogo.da93cce4da49bfc50ee5695ba083aed0.svg",
+    "static/media/oil-tank.png": "/static/media/oil-tank.1c32832fd98a73cee504.png",
     "static/media/gkaps.jpeg": "/static/media/gkaps.ea89d53055b9506c5432.jpeg",
-    "static/media/tank.svg": "/static/media/tank.24dd0f164f2799629f9238031881727e.svg",
-    "index.html": "/index.html",
-    "main.4370d07d.css.map": "/static/css/main.4370d07d.css.map",
-    "main.4e928117.js.map": "/static/js/main.4e928117.js.map",
-    "787.b822b63e.chunk.js.map": "/static/js/787.b822b63e.chunk.js.map"
+    "static/media/structure.png": "/static/media/structure.7e180a701335a5fcf8dc.png",
+    "static/media/tank.svg": "/static/media/tank.19ee4fe5474e388855e62bc69926a950.svg",
+    "index.html": "/index.html"
   },
   "entrypoints": [
-    "static/css/main.4370d07d.css",
-    "static/js/main.4e928117.js"
+    "static/css/main.cef991be.css",
+    "static/js/main.6df0267e.js"
   ]
 }
